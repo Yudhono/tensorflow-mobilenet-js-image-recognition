@@ -29,6 +29,7 @@ function loadImage(file) {
   });
 }
 
+// show the prediction on the page
 function showPredictions(predictions) {
   resultDiv.innerHTML = "";
   predictions.forEach(({ className, probability }) => {
